@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Message Encryptor And Decryptor</title>
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="title">
+                <h1>Message Encryptor</h1>
+                <h2>To Note : </h2>
+                <p>Letters may be typed in upper or lower case.</p>
+                <p>Do not enter letters with accents or special characters.</p>
+            </div>
+            <div class="logos">
+                <a href="https://www.aluracursos.com/" target="_blank">
+                    <img src="img/alura_latam_logo-removebg-preview.png" alt="alura latam logo">
+                </a>
+            </div>
+        </header>
+        <main class="container">
+            <div class="encrypted">
+                <form>
+                    <textarea id="toEncrypt" cols="70" rows="5" placeholder="Enter message to encrypt."></textarea>
+                    <button class="encrypt">Encrypt</button>
+                </form>
+                <span class="encryptedMessage">Your message will appears here : </span>
+                <button class="encryptedCopy">Copy</button>
+            </div>
+            <div class="decryption">
+                <form>
+                    <textarea id="toDecrypt" cols="70" rows="5" placeholder="Enter message to decrypt."></textarea>
+                    <button class="decrypt">Decrypt</button>
+                </form>
+                <span class="decryptedMessage">Your message will appears here : </span>
+                <button class="decryptorCopy">Copy</button>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>
+                &copy; 
+                Copyright 2022 - 
+                <a href="https://github.com/densisono" target="_blank">densisono GitHub</a> - 
+                <a href="mailto:densisono@gmail.com" target="_blank">densisono@gmail.com</a>
+            </p>
+        </footer>
+        <script src="js/encryptor.js"></script>
+    </body>
+</html>
